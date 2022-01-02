@@ -28,7 +28,7 @@ html {
 
 /* Dark Background Image */
 .main-entityHeader-backgroundColor, .playback-bar, .main-nowPlayingBar-container, .main-navBar-navBar, .main-topBar-background, .main-topBar-overlay, .main-trackList-trackListHeader, .Root__top-bar,
-.main-actionBar-ActionBar, .main-card-card, .Z35BWOA10YGn5uc9YgAp, .main-actionBarBackground-background, .main-view-container, .main-home-homeHeader {
+.main-actionBar-ActionBar, .main-card-card, .Z35BWOA10YGn5uc9YgAp, .main-actionBarBackground-background, .main-view-container, .main-home-homeHeader, .contentSpacing:not(.main-entityHeader-container) {
 	background-image: var(--bgDark)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;

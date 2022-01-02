@@ -1,0 +1,12 @@
+{
+    "name": "Spotify Dark",
+    "description": "Inspired by: Github Dark",
+    "preview": "Images/Spotify-Dark-Home.png",
+    "readme": "README.md",
+    "usercss": "SyndiShanX/user.css",
+    "schemes": "SyndiShanX/color.ini",
+
+    "authors": [
+        { "name": "SyndiShanX", "url": "https://github.com/SyndiShanX" }
+    ]
+}

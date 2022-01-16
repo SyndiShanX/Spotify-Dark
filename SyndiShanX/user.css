@@ -9,9 +9,11 @@
 }
 
 /* Zoom */
-
 html {
 	zoom: 85%!important;
+}
+.main-nowPlayingBar-container {
+	zoom: 117.5%!important;
 }
 
 /* Light Background Image */
@@ -127,9 +129,10 @@ html {
 }
 .playback-bar .playback-progressbar, .playback-bar__progress-time-elapsed, .main-playbackBarRemainingTime-container {
 	position: relative!important;
-	left: -168px!important;
+	left: -235px!important;
 }
-/* Now Playing Cover Art*/
+
+/* Now Playing Cover Art */
 .main-nowPlayingWidget-coverArt, .cover-art .shadow, .cover-art-image {
 	width: 112px!important;
 	height: 112px!important;

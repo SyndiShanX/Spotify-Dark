@@ -93,6 +93,9 @@ html {
 	position: relative!important;
 	max-height: 28px!important;
 }
+.main-contextMenu-menu .main-contextMenu-menuItem:nth-child(7) {
+	display: none;
+}
 
 /* User Dropdown */
 .main-userWidget-box {

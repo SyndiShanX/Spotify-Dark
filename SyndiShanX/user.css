@@ -96,6 +96,9 @@ html {
 .main-contextMenu-menu .main-contextMenu-menuItem:nth-child(7) {
 	display: none;
 }
+.eSMjmiD29Ox35O95waw6::before, .eSMjmiD29Ox35O95waw6::after {
+	display: none;
+}
 
 /* User Dropdown */
 .main-userWidget-box {
@@ -113,6 +116,13 @@ html {
 }
 .main-notificationBubble-NotificationBubble::after {
 	border-bottom-color: var(--blue)!important;
+}
+
+/* Tippy Boxes */
+.X8yW2lJbFCQfV5GjoRwL {
+	position: relative;
+	left: 140px;
+	bottom: -130px;
 }
 
 /* Text */

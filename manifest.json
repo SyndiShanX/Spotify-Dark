@@ -1,12 +1,14 @@
 {
-    "name": "Spotify Dark",
-    "description": "Inspired by: Github Dark",
-    "preview": "Images/Spotify-Dark-Home.png",
-    "readme": "README.md",
-    "usercss": "SyndiShanX/user.css",
-    "schemes": "SyndiShanX/color.ini",
-
-    "authors": [
-        { "name": "SyndiShanX", "url": "https://github.com/SyndiShanX" }
-    ]
+	"name": "Spotify Dark",
+	"description": "A Github Dark Theme for Spotify, Inspired by: Github Dark",
+	"preview": "Images/Spotify-Dark-Home.png",
+	"readme": "README.md",
+	"usercss": "SyndiShanX/user.css",
+	"schemes": "SyndiShanX/color.ini",
+	"authors": [
+		{ "name": "SyndiShanX", "url": "https://github.com/SyndiShanX" }
+	],
+	"include": [
+		"https://raw.githubusercontent.com/SyndiShanX/Spicetify-Extensions/main/fixTippyBoxes/fixTippyBoxes.js"
+	]
 }

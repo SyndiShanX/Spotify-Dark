@@ -9,6 +9,6 @@
 		{ "name": "SyndiShanX", "url": "https://github.com/SyndiShanX" }
 	],
 	"include": [
-		"https://raw.githubusercontent.com/SyndiShanX/Spicetify-Extensions/main/fixTippyBoxes.js"
+		"https://raw.githubusercontent.com/SyndiShanX/Spotify-Dark/main/fixTippyBoxes.js"
 	]
 }

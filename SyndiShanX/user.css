@@ -12,7 +12,7 @@
 html {
 	zoom: 85%!important;
 }
-.main-nowPlayingBar-container {
+.main-nowPlayingBar-container, #tippy-test {
 	zoom: 117.5%!important;
 }
 
@@ -121,8 +121,7 @@ html {
 /* Tippy Boxes */
 .X8yW2lJbFCQfV5GjoRwL {
 	position: relative;
-	left: 140px;
-	bottom: -130px;
+	bottom: -150px;
 }
 
 /* Text */

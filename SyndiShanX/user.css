@@ -101,10 +101,6 @@ html {
 }
 
 /* User Dropdown */
-.main-userWidget-box {
-	position: relative!important;
-	right: -250px!important;
-}
 .main-userWidget-dropDownMenu {
 	position: relative!important;
 	right: -150px!important;
@@ -116,12 +112,6 @@ html {
 }
 .main-notificationBubble-NotificationBubble::after {
 	border-bottom-color: var(--blue)!important;
-}
-
-/* Tippy Boxes */
-.X8yW2lJbFCQfV5GjoRwL {
-	position: relative;
-	bottom: -150px;
 }
 
 /* Text */

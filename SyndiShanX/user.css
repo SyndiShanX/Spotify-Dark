@@ -150,8 +150,9 @@ html {
 	height: 112px!important;
 }
 .cover-art--with-auto-height .cover-art-image {
-	width: 284px!important;
-	height: 284px!important;
+	width: 240px!important;
+	height: 240px!important;
+	top: 24px!important;
 }
 .main-nowPlayingWidget-coverExpanded .main-nowPlayingWidget-coverArt {
 	display: none!important;
@@ -159,4 +160,9 @@ html {
 .main-nowPlayingWidget-coverExpanded .main-trackInfo-container, .main-nowPlayingWidget-coverExpanded .control-button-heart {
 	position: relative!important;
 	left: 80px!important;
+}
+.CoverSlotExpanded__actionButton {
+	position: relative!important;
+	left: 205px!important;
+	top: -205px!important;
 }

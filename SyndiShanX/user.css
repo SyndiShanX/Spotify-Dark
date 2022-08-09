@@ -100,6 +100,10 @@ html {
 .eSMjmiD29Ox35O95waw6::before, .eSMjmiD29Ox35O95waw6::after {
 	display: none;
 }
+#searchPage .main-trackList-rowHeartButton {
+	position: relative!important;
+	left: 10px!important;
+}
 
 /* Button Colors */
 .main-addButton-active, .control-button--active, .control-button-heart[aria-checked=true], .main-trackList-statusChangeUp, .MBzbwWcyfbqSftBtnn3g button>svg,

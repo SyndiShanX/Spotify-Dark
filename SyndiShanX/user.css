@@ -102,7 +102,7 @@ html {
 }
 #searchPage .main-trackList-rowHeartButton {
 	position: relative!important;
-	left: 10px!important;
+	left: -925px!important;
 }
 
 /* Button Colors */

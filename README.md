@@ -3,7 +3,7 @@ A Github Dark Theme for Spotify
 Made by: SyndiShanX#4620
 
 Installation:
-Copy SyndiShanX folder into your Spicetify Themes Folder (%userprofile%\.spicetify\Themes)
+Copy SyndiShanX folder into your Spicetify Themes Folder (%appdata%\spicetify\Themes)
 
 Apply the theme with:
 

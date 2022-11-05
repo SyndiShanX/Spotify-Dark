@@ -160,7 +160,7 @@ html {
 /* User Dropdown */
 .main-userWidget-dropDownMenu {
 	position: relative!important;
-	right: -150px!important;
+	right: 150px!important;
 }
 
 /* Notification Bubble */

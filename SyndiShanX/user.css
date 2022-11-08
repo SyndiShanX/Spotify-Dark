@@ -194,6 +194,9 @@ html {
 	position: relative!important;
 	bottom: 10px!important;
 }
+.main-trackInfo-container {
+	margin-bottom: 15px!important;
+}
 
 /* Now Playing Cover Art */
 .main-nowPlayingWidget-coverArt, .cover-art .shadow, .cover-art-image {

@@ -42,7 +42,7 @@ html {
 }
 
 /* Hover Background Image */
-.main-card-card:hover, .main-contextMenu-menuItem:hover, #spicetify-playlist-list .GlueDropTarget:hover {
+.main-card-card:hover, .main-contextMenu-menuItem:hover, #spicetify-playlist-list .GlueDropTarget:hover, .lyrics-lyrics-background {
 	background-image: var(--bgHover)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -103,6 +103,9 @@ html {
 #searchPage .main-trackList-rowHeartButton {
 	position: relative!important;
 	left: -925px!important;
+}
+.lyrics-lyrics-background {
+	background-color: transparent!important;
 }
 
 /* Button Colors */
@@ -174,6 +177,12 @@ html {
 /* Text */
 .K8PtC1Way9XetxDGwCGx, .FjQhMth1iFGBpR5rKmk4, .GenericModal div, .gC5rpi1l_CHdGc8OYjSt, .main-button-tertiary, .encore-light-theme > h2, .encore-light-theme button, .encore-bright-accent-set {
 	color: #fff!important;
+}
+.lyrics-lyricsContent-lyric:not(.lyrics-lyricsContent-active, .lyrics-lyricsContent-highlight) {
+	color: #444444!important;
+}
+.lyrics-lyricsContent-highlight {
+	color: #333333!important;
 }
 
 /* Now Playing */

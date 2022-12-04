@@ -220,3 +220,24 @@ html {
 	left: 205px!important;
 	top: -205px!important;
 }
+
+/* ---------- CSS Snippets ---------- */
+/* Better Lyrics Style - Tetrax-10 - Removed Blur */
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight {
+	padding: 15px;
+	font-size: 110%;
+}
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
+	filter: none;
+	padding: 20px;
+	font-size: 130%;
+}
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric {
+	padding: 15px;
+	font-size: 110%;
+}
+.lyrics-lyrics-contentContainer .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced {
+	filter: none;
+	padding: 10px;
+	font-size: 100%;
+}

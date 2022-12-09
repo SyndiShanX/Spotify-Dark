@@ -100,10 +100,6 @@ html {
 .eSMjmiD29Ox35O95waw6::before, .eSMjmiD29Ox35O95waw6::after {
 	display: none;
 }
-#searchPage .main-trackList-rowHeartButton {
-	position: relative!important;
-	left: -925px!important;
-}
 .lyrics-lyrics-background {
 	background-color: transparent!important;
 }

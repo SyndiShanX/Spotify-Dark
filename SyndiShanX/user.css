@@ -183,24 +183,24 @@ html {
 
 /* Now Playing */
 .main-nowPlayingBar-container {
-	min-height: 125px!important;
+	min-height: 15vh!important;
 }
 .main-nowPlayingBar-nowPlayingBar {
-	margin-top: 20px!important;
+	margin-top: 1.25%!important;
 }
 .playback-bar .playback-progressbar {
-	min-width: 950px!important;
+	min-width: 150%!important;
 }
 .playback-bar .playback-progressbar, .playback-bar__progress-time-elapsed, .main-playbackBarRemainingTime-container {
 	position: relative!important;
-	left: -235px!important;
+	left: -32%!important;
 }
 .control-button-heart {
 	position: relative!important;
-	bottom: 10px!important;
+	bottom: 1%!important;
 }
 .main-trackInfo-container {
-	margin-bottom: 15px!important;
+	margin-bottom: 1.5%!important;
 }
 
 /* Now Playing Cover Art */

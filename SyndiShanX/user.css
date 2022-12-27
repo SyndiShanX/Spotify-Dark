@@ -18,7 +18,7 @@ html {
 
 /* Light Background Image */
 .main-home-homeHeader, .x-entityHeader-overlay, .x-actionBarBackground-background, ._UFTK833WfTNGb4agRTd, .Ic3iDUCnC09k55peZBfC, .main-contextMenu-menu,
-.GenericModal:not([aria-label="Advertisement"])>div, .main-navBar-navBar .os-padding {
+.GenericModal:not([aria-label="Advertisement"])>div, .main-navBar-navBar .os-padding, .main-trackList-selected {
 	background-image: var(--bgLight)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;

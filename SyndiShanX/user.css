@@ -104,14 +104,17 @@ html {
 /* Button Colors */
 .main-addButton-active, .control-button--active, .control-button-heart[aria-checked=true], .main-trackList-statusChangeUp, .MBzbwWcyfbqSftBtnn3g button>svg,
 .main-userWidget-active, input:checked~.x-toggle-indicatorWrapper, .connect-device-list-item--active, .connect-device-list-item--active .connect-device-list-item__device-subtitle,
-.connect-device-list-item--active .connect-device-list-item__icon, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle,
-.m6Bvw7PNXw2WXqruLOLE, .main-addButton-active, .xbsDt2_VfIDs0cQOXvgf, .CCeu9OfWSwIAJqA49n84, .main-navBar-navBarItem .GlueDropTarget--active, .Yw9u5QqYvW1sY8hr729O svg,
-.main-yourEpisodesButton-yourEpisodesIcon, .rqhyBEi1217s5l9KD42B:hover, .rOqbwjYwx0AIWTfoYOQe:hover, .eymcN9Ndbrbe5jR7URP_:hover, .UeXQSrlNnaXUBtIOShTh:hover,
-.ioDnN5QkrvTdd8oOrl2h, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker,.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle,
-.main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker,.main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle,
-.control-button--active, .control-button--active:not(.control-button--disabled):focus,.control-button--active:not(.control-button--disabled):hover, .control-button--active:not(.control-button--disabled):active:focus,.control-button--active:not(.control-button--disabled):active:hover,
-.main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA, .main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA:not([disabled]):focus,.main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA:not([disabled]):hover, .main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA:not([disabled]):focus:not(:focus-visible):not(:hover),
-.main-repeatButton-button.tP0mccyU1WAa7I9PevC1, .main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):focus,.main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):hover, .main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):focus:not(:focus-visible):not(:hover) {
+.connect-device-list-item--active .connect-device-list-item__icon, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle, .m6Bvw7PNXw2WXqruLOLE, .main-addButton-active, .xbsDt2_VfIDs0cQOXvgf, .CCeu9OfWSwIAJqA49n84,
+.main-navBar-navBarItem .GlueDropTarget--active, .Yw9u5QqYvW1sY8hr729O svg, .main-yourEpisodesButton-yourEpisodesIcon, .rqhyBEi1217s5l9KD42B:hover, .rOqbwjYwx0AIWTfoYOQe:hover,
+.eymcN9Ndbrbe5jR7URP_:hover, .UeXQSrlNnaXUBtIOShTh:hover, .ioDnN5QkrvTdd8oOrl2h, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .control-button--active, .control-button--active:not(.control-button--disabled):focus,
+.control-button--active:not(.control-button--disabled):hover, .control-button--active:not(.control-button--disabled):active:focus, .control-button--active:not(.control-button--disabled):active:hover,
+.main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA, .main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA:not([disabled]):focus, .main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA:not([disabled]):hover,
+.main-shuffleButton-button.OF_3F0SQCsBtL1jSTlTA:not([disabled]):focus:not(:focus-visible):not(:hover), .main-repeatButton-button.tP0mccyU1WAa7I9PevC1,
+.main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):focus, .main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):hover,
+.main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):focus:not(:focus-visible):not(:hover) {
 	color: #35AFEA!important;
 }
 .r6zw1NLBxpB2YWcQQkUn, .r6zw1NLBxpB2YWcQQkUn:focus, .xbsDt2_VfIDs0cQOXvgf:after, .main-navBar-navBarItem .GlueDropTarget--active:after, .Mvo56wLT_lMG_re9vA7W:after,

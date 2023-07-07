@@ -19,9 +19,10 @@ html {
 #tippy-spicetify {
 	zoom: 117.5%!important;
 	position: relative!important;
-	top: -810px!important;
-	left: -80px!important;
+	top: -835px!important;
+	left: -85px!important;
 	width: max-content!important;
+	margin-bottom: -810px!important;
 }
 
 /* Light Background Image */

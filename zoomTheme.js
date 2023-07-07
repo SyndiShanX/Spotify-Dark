@@ -37,7 +37,7 @@
 					} else {
 						setTippy(1, 'tippy-main')
 					}
-				} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /Library/ig.test(tippyText) || /More options for /ig.test(tippyText)) {
+				} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /Library/ig.test(tippyText) || /More options for /ig.test(tippyText) || /Switch to /ig.test(tippyText)) {
 					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800')) {
 						setTippy(1, 'tippy-song-info')
 					} else if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] == '437') {
@@ -46,7 +46,11 @@
 						setTippy(1, 'tippy-sidebar')
 					}
 				} else if (/Search in Playlists/ig.test(tippyText)) {
-					setTippy(1, 'tippy-search')
+					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] < parseInt('350')) {
+						setTippy(1, 'tippy-sidebar-search')
+					} else {
+						setTippy(1, 'tippy-large-sidebar-search')
+					}
 				} else if (/Settings/ig.test(tippyText)) {
 					setTippy(1, 'tippy-settings')
 				} else if (/Play /ig.test(tippyText)) {
@@ -95,11 +99,17 @@ html {
 	width: max-content!important;
 	margin-bottom: -95px!important;
 }
-#tippy-search {
+#tippy-sidebar-search {
 	position: relative!important;
 	top: -50px!important;
 	width: max-content!important;
 	margin-bottom: -50px!important;
+}
+#tippy-large-sidebar-search {
+	position: relative!important;
+	top: -90px!important;
+	width: max-content!important;
+	margin-bottom: -90px!important;
 }
 #tippy-song-info {
 	position: relative!important;

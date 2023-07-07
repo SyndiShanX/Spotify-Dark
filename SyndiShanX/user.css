@@ -19,7 +19,7 @@ html {
 
 /* Light Background Image */
 .main-home-homeHeader, .x-entityHeader-overlay, .x-actionBarBackground-background, .main-contextMenu-menu, .main-navBar-navBar .os-padding, .main-trackList-selected, #spicetify-playlist-list,
-.main-dropDown-dropDown, textarea, input, .main-yourLibraryX-libraryRootlist {
+.main-dropDown-dropDown, textarea, input, .main-yourLibraryX-libraryRootlist, .view-homeShortcutsGrid-main {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;

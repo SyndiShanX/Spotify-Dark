@@ -6,19 +6,32 @@
 
 (function fixTippyBoxesMain() {
 	
+	function setTippy(variant, ids) {
+		if (variant == 1) {
+			setTimeout(function(){ tippy.parentElement.parentElement.id = ids; }, 50);
+			setTimeout(function(){ fixTippyBoxes() }, 50);
+		} else if (variant == 2) {
+			setTimeout(function(){ tippy.parentElement.id = ids; }, 50);
+			setTimeout(function(){ fixTippyBoxes() }, 50);
+		}
+	}
+	
 	async function fixTippyBoxes() {
-		if (document.getElementsByClassName("main-contextMenu-tippy")[0] != undefined) {
-			if (document.getElementsByClassName("main-contextMenu-tippy")[0].classList.length == 2) {
-				setTimeout(function(){ document.getElementsByClassName("main-contextMenu-tippy")[0].parentElement.id = 'tippy-main tippy-spicetify'; }, 50);
-				setTimeout(function(){ fixTippyBoxes() }, 50);
+		tippy = document.getElementsByClassName("main-contextMenu-tippy")[0]
+		if (tippy != undefined) {
+			if (tippy.classList.length == 2) {
+				setTippy(2, 'tippy-main tippy-spicetify')
 			} else {
-				if (document.getElementsByClassName("main-contextMenu-tippy")[0].children[0].innerText == 'Go back' || document.getElementsByClassName("main-contextMenu-tippy")[0].children[0].innerText == 'Go forward') {
-					setTimeout(function(){ document.getElementsByClassName("main-contextMenu-tippy")[0].parentElement.id = 'tippy-main tippy-spicetify'; }, 50);
-					setTimeout(function(){ fixTippyBoxes() }, 50);
-				} else {
-					setTimeout(function(){ document.getElementsByClassName("main-contextMenu-tippy")[0].parentElement.parentElement.id = 'tippy-main'; }, 50);
-					setTimeout(function(){ fixTippyBoxes() }, 50);
-				}
+				tippyText = tippy.children[0].innerText
+				if (/Go back/ig.test(tippyText) || /Go forward/ig.test(tippyText)) {
+					setTippy(2, 'tippy-main tippy-spicetify')
+				} else if (/Theme Dev Tools/ig.test(tippyText)) {
+					setTippy(1, 'tippy-tools')
+				} else if (/Settings/ig.test(tippyText)) {
+					setTippy(1, 'tippy-settings')
+				} else if (!/Remove/ig.test(tippyText) && !/Install/ig.test(tippyText)) {
+					setTippy(1, 'tippy-main')
+				} 
 			}
 		} else {
 			setTimeout(function(){ fixTippyBoxes() }, 50);

@@ -23,6 +23,12 @@ html {
 	width: max-content!important;
 	margin-bottom: -810px!important;
 }
+#tippy-tools {
+	left: 55px!important;
+}
+#tippy-settings {
+	left: 260px!important;
+}
 
 /* Light Background Image */
 .main-home-homeHeader, .x-entityHeader-overlay, .x-actionBarBackground-background, .main-contextMenu-menu, .main-navBar-mainNav .os-padding, .main-trackList-selected, #spicetify-playlist-list,

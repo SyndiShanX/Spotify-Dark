@@ -13,12 +13,12 @@
 html {
 	zoom: 85%!important;
 }
-.main-nowPlayingBar-container, #tippy-test, .main-navBar-navBar .os-padding {
+.main-nowPlayingBar-container, #tippy-test, .main-navBar-mainNav .os-padding {
 	zoom: 117.5%!important;
 }
 
 /* Light Background Image */
-.main-home-homeHeader, .x-entityHeader-overlay, .x-actionBarBackground-background, .main-contextMenu-menu, .main-navBar-navBar .os-padding, .main-trackList-selected, #spicetify-playlist-list,
+.main-home-homeHeader, .x-entityHeader-overlay, .x-actionBarBackground-background, .main-contextMenu-menu, .main-navBar-mainNav .os-padding, .main-trackList-selected, #spicetify-playlist-list,
 .main-dropDown-dropDown, textarea, input, .main-yourLibraryX-libraryRootlist, .view-homeShortcutsGrid-main {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
@@ -52,7 +52,7 @@ html {
 }
 
 /* Dark Background Image */
-.main-entityHeader-backgroundColor, .main-navBar-navBar, .main-topBar-background, .main-topBar-overlay,
+.main-entityHeader-backgroundColor, .main-navBar-mainNav, .main-topBar-background, .main-topBar-overlay,
 .main-trackList-trackListHeader, .Root__top-bar, .main-actionBar-ActionBar, .main-card-card, .main-actionBarBackground-background, .main-view-container, .main-home-homeHeader,
 .contentSpacing:not(.main-entityHeader-container), .Root__top-container, .main-navBar-mainNav, .GenericModal:not([aria-label="Advertisement"])>div {
 	background-image: var(--bgDarkness3)!important;
@@ -110,7 +110,7 @@ html {
 .main-userWidget-active, input:checked~.x-toggle-indicatorWrapper, .connect-device-list-item--active, .connect-device-list-item--active .connect-device-list-item__device-subtitle,
 .connect-device-list-item--active .connect-device-list-item__icon, .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
 .main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle, .m6Bvw7PNXw2WXqruLOLE, .main-addButton-active, .xbsDt2_VfIDs0cQOXvgf, .CCeu9OfWSwIAJqA49n84,
-.main-navBar-navBarItem .main-useDropTarget-base--active, .Yw9u5QqYvW1sY8hr729O svg, .main-yourEpisodesButton-yourEpisodesIcon, .rqhyBEi1217s5l9KD42B:hover, .rOqbwjYwx0AIWTfoYOQe:hover,
+.main-navBar-mainNavItem .main-useDropTarget-base--active, .Yw9u5QqYvW1sY8hr729O svg, .main-yourEpisodesButton-yourEpisodesIcon, .rqhyBEi1217s5l9KD42B:hover, .rOqbwjYwx0AIWTfoYOQe:hover,
 .eymcN9Ndbrbe5jR7URP_:hover, .UeXQSrlNnaXUBtIOShTh:hover, .ioDnN5QkrvTdd8oOrl2h, .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowMarker,
 .main-trackList-trackListRow.main-trackList-active:hover .main-trackList-rowTitle, .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowMarker,
 .main-trackList-trackListRow.main-trackList-active:focus-within .main-trackList-rowTitle, .control-button--active, .control-button--active:not(.control-button--disabled):focus,
@@ -121,7 +121,7 @@ html {
 .main-repeatButton-button.tP0mccyU1WAa7I9PevC1:not([disabled]):focus:not(:focus-visible):not(:hover) {
 	color: #35AFEA!important;
 }
-.r6zw1NLBxpB2YWcQQkUn, .r6zw1NLBxpB2YWcQQkUn:focus, .xbsDt2_VfIDs0cQOXvgf:after, .main-navBar-navBarItem .main-useDropTarget-base--active:after, .Mvo56wLT_lMG_re9vA7W:after,
+.r6zw1NLBxpB2YWcQQkUn, .r6zw1NLBxpB2YWcQQkUn:focus, .xbsDt2_VfIDs0cQOXvgf:after, .main-navBar-mainNavItem .main-useDropTarget-base--active:after, .Mvo56wLT_lMG_re9vA7W:after,
 .v1Gs5xaHy8aBhUMEobSn:after {
 	border-color: #35AFEA!important;
 	color: #35AFEA!important;

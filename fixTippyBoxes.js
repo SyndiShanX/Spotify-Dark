@@ -8,10 +8,10 @@
 	
 	function setTippy(variant, ids) {
 		if (variant == 1) {
-			setTimeout(function(){ tippy.parentElement.parentElement.id = ids; }, 50);
+			tippy.parentElement.parentElement.id = ids;
 			setTimeout(function(){ fixTippyBoxes() }, 50);
 		} else if (variant == 2) {
-			setTimeout(function(){ tippy.parentElement.id = ids; }, 50);
+			tippy.parentElement.id = ids;
 			setTimeout(function(){ fixTippyBoxes() }, 50);
 		}
 	}
@@ -29,6 +29,8 @@
 					setTippy(1, 'tippy-tools')
 				} else if (/Settings/ig.test(tippyText)) {
 					setTippy(1, 'tippy-settings')
+				} else if (/Remove /ig.test(tippyText)) {
+					setTippy(1, 'tippy-main')
 				} else if (!/Remove/ig.test(tippyText) && !/Install/ig.test(tippyText)) {
 					setTippy(1, 'tippy-main')
 				} 

@@ -13,8 +13,15 @@
 html {
 	zoom: 85%!important;
 }
-.main-nowPlayingBar-container, #tippy-test, .main-navBar-mainNav .os-padding {
+.main-nowPlayingBar-container, #tippy-main, .main-navBar-mainNav .os-padding {
 	zoom: 117.5%!important;
+}
+#tippy-spicetify {
+	zoom: 117.5%!important;
+	position: relative!important;
+	top: -810px!important;
+	left: -80px!important;
+	width: max-content!important;
 }
 
 /* Light Background Image */

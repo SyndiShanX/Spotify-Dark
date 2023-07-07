@@ -31,6 +31,12 @@
 					}
 				} else if (/Theme Dev Tools/ig.test(tippyText)) {
 					setTippy(1, 'tippy-tools')
+				} else if (/Remove /ig.test(tippyText)) {
+					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800')) {
+						setTippy(1, 'tippy-song-info')
+					} else {
+						setTippy(1, 'tippy-main')
+					}
 				} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /Library/ig.test(tippyText) || /More options for /ig.test(tippyText)) {
 					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800')) {
 						setTippy(1, 'tippy-song-info')
@@ -43,8 +49,6 @@
 					setTippy(1, 'tippy-search')
 				} else if (/Settings/ig.test(tippyText)) {
 					setTippy(1, 'tippy-settings')
-				} else if (/Remove /ig.test(tippyText)) {
-					setTippy(1, 'tippy-main')
 				} else if (/Play /ig.test(tippyText)) {
 					setTippy(1, 'tippy-song-play')
 				} else if (/Download/ig.test(tippyText)) {

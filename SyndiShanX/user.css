@@ -310,3 +310,22 @@ body::after {
 	width: 8.8%;
 	height: 3.83%;
 }
+
+/* Now Playing NCS visualizer - darkthemer */
+.main-trackList-rowMarker:has(img)::before {
+	content: "";
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	background-image: url(https://cdn.discordapp.com/attachments/987197041958596640/1128995803583746128/ncs.gif); 
+	background-size: contain;
+	transform: scale(2);
+	filter:
+		grayscale(1) opacity(0.2)
+		drop-shadow(0 0 0 var(--spice-button-active))
+		drop-shadow(0 0 0 var(--spice-button-active))
+		drop-shadow(0 0 0 var(--spice-button-active));
+}
+.main-trackList-trackListRow:hover .main-trackList-rowMarker:has(img)::before, .main-trackList-trackListRow.main-trackList-selected .main-trackList-rowMarker:has(img)::before, .main-trackList-playingIcon {
+	display: none;
+}

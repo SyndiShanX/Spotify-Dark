@@ -152,12 +152,6 @@
 	--is-active-fg-color: #35AFEA;
 }
 
-/* User Dropdown 
-.main-userWidget-dropDownMenu {
-	position: relative!important;
-	right: 150px!important;
-}*/
-
 /* Notification Bubble */
 .main-notificationBubble-NotificationBubble {
 	background-color: var(--blue)!important;

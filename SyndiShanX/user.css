@@ -96,6 +96,14 @@
 .Root.encore-dark-theme {
 	--panel-gap: 0px!important;
 }
+.main-connectBar-connectBar {
+	bottom: -7px!important;
+}
+.main-devicePicker-indicator {
+	position: relative;
+	bottom: -54px;
+	right: -6px;
+}
 
 /* Button Colors */
 .main-addButton-active, .control-button--active, .control-button-heart[aria-checked=true], .main-trackList-statusChangeUp, .MBzbwWcyfbqSftBtnn3g button>svg,

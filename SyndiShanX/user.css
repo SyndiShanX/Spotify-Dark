@@ -302,16 +302,6 @@
 	margin-inline-end: 0;
 }
 
-/* Window Controls Background - darkthemer */
-body::after {
-	content: '';
-	position: absolute;
-	right: 0;
-	z-index: 999;
-	width: 8.8%;
-	height: 3.83%;
-}
-
 /* Now Playing NCS visualizer - darkthemer */
 .main-trackList-rowMarker:has(img)::before {
 	content: "";

@@ -308,7 +308,6 @@ body::after {
 	position: absolute;
 	right: 0;
 	z-index: 999;
-	backdrop-filter: brightness(2.12);
 	width: 8.8%;
 	height: 3.83%;
 }

@@ -46,7 +46,7 @@
 /* Dark Background Image */
 .main-entityHeader-backgroundColor, .main-navBar-mainNav, .main-topBar-background, .main-topBar-overlay, .main-trackList-trackListHeader, .Root__top-bar, .main-actionBar-ActionBar,
 .main-card-card, .main-actionBarBackground-background, .main-view-container, .main-home-homeHeader, .contentSpacing:not(.main-entityHeader-container), .Root__top-container, .main-navBar-mainNav,
-.GenericModal:not([aria-label="Advertisement"])>div {
+.GenericModal:not([aria-label="Advertisement"])>div, .main-buddyFeed-scrollBarContainer {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;

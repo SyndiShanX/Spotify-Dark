@@ -57,7 +57,7 @@
 					setTippy(1, 'tippy-song-play')
 				} else if (/Download/ig.test(tippyText)) {
 					setTippy(1, 'tippy-playlist')
-				} else if (/Search in playlist/ig.test(tippyText)) {
+				} else if (/Search in playlist/g.test(tippyText)) {
 					setTippy(1, 'tippy-playlist-search')
 				} else if (!/Remove/ig.test(tippyText) && !/Install/ig.test(tippyText)) {
 					setTippy(1, 'tippy-main')
@@ -79,7 +79,7 @@
 						} else {
 							setTippy(1, 'tippy-sidebar')
 						}
-					} else if (/Search in playlist/ig.test(tippyText)) {
+					} else if (/Search in playlist/g.test(tippyText)) {
 						if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800') && tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] < parseInt('1200')) {
 							setTippy(1, 'tippy-playlist-search-offset')
 						} else {

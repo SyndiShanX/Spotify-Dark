@@ -232,7 +232,7 @@
 }
 
 /* Now Playing Cover Art */
-.main-nowPlayingWidget-coverArt .cover-art, .cover-art .shadow, .cover-art-image {
+.main-nowPlayingWidget-coverArt .cover-art, .cover-art .shadow, .cover-art:not(.cover-art-auto-height) .cover-art-image {
 	width: 112px!important;
 	height: 112px!important;
 }
@@ -244,10 +244,6 @@
 .main-coverSlotExpanded-container {
 	transform: translateY(24px)!important;
 	border-top-right-radius: 12px;
-}
-.cover-art-auto-height .cover-art-image {
-	width: 388px!important;
-	height: 388px!important;
 }
 .main-nowPlayingWidget-coverExpanded .main-nowPlayingWidget-coverArt {
 	display: none!important;

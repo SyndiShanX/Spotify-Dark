@@ -105,6 +105,15 @@
 	right: -6px;
 }
 
+/* Dancing Duck Fix */
+[class^='playback-']:not(.volume-bar__slider-container > .playback-progressbar):before {
+	width: 64px!important;
+	height: 64px!important;
+	right: 50px!important;
+	image-rendering: initial!important;
+	background-size: 64px 64px!important;
+}
+
 /* Button Colors */
 .main-addButton-active, .control-button--active, .control-button-heart[aria-checked=true], .main-trackList-statusChangeUp, .MBzbwWcyfbqSftBtnn3g button>svg,
 .main-userWidget-active, input:checked~.x-toggle-indicatorWrapper, .connect-device-list-item--active, .connect-device-list-item--active .connect-device-list-item__device-subtitle,

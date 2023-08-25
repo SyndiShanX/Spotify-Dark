@@ -33,11 +33,11 @@
 					setTippy(1, 'tippy-tools')
 				} else if (/Remove /ig.test(tippyText)) {
 					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800')) {
-						setTippy(1, 'tippy-song-info')
+						setTippy(1, 'tippy-remove-song')
 					} else {
 						setTippy(1, 'tippy-main')
 					}
-				} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /Library/ig.test(tippyText) || /More options for /ig.test(tippyText) || /Switch to /ig.test(tippyText)) {
+				} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /More options for /ig.test(tippyText) || /Switch to /ig.test(tippyText) || /Invite collaborators to /ig.test(tippyText) || /Duration/ig.test(tippyText)) {
 					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800')) {
 						setTippy(1, 'tippy-song-info')
 					} else if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] == '437') {
@@ -61,7 +61,32 @@
 					setTippy(1, 'tippy-playlist-search')
 				} else if (!/Remove/ig.test(tippyText) && !/Install/ig.test(tippyText)) {
 					setTippy(1, 'tippy-main')
-				} 
+				}
+				if (document.getElementsByClassName('Root__right-sidebar')[0].style.cssText != '' && document.getElementsByClassName('Root__right-sidebar')[0].style.cssText.split('width: ')[1].split('px')[0] > 0) {
+					if (/Remove /ig.test(tippyText)) {
+						if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('1300')) {
+							setTippy(1, 'tippy-song-info')
+						} else if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800') && tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] < parseInt('1300')) {
+							setTippy(1, 'tippy-remove-song-offset')
+						} else {
+							setTippy(1, 'tippy-main')
+						}
+					} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /More options for /ig.test(tippyText) || /Switch to /ig.test(tippyText) || /Invite collaborators to /ig.test(tippyText) || /Duration/ig.test(tippyText)) {
+						if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('1300')) {
+							setTippy(1, 'tippy-song-info')
+						} else if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800') && tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] < parseInt('1300')) {
+							setTippy(1, 'tippy-song-info-offset')
+						} else {
+							setTippy(1, 'tippy-sidebar')
+						}
+					} else if (/Search in playlist/ig.test(tippyText)) {
+						if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800') && tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] < parseInt('1200')) {
+							setTippy(1, 'tippy-playlist-search-offset')
+						} else {
+							setTippy(1, 'tippy-playlist-search')
+						}
+					}
+				}
 			}
 		} else {
 			setTimeout(function(){ fixTippyBoxes() }, 50);
@@ -118,6 +143,27 @@ html {
 	width: max-content!important;
 	margin-bottom: -100px!important;
 }
+#tippy-song-info-offset {
+	position: relative!important;
+	top: -100px!important;
+	left: 0px!important;
+	width: max-content!important;
+	margin-bottom: -100px!important;
+}
+#tippy-remove-song {
+	position: relative!important;
+	top: -100px!important;
+	left: 230px!important;
+	width: max-content!important;
+	margin-bottom: -100px!important;
+}
+#tippy-remove-song-offset {
+	position: relative!important;
+	top: -100px!important;
+	left: 0px!important;
+	width: max-content!important;
+	margin-bottom: -100px!important;
+}
 #tippy-song-play {
 	position: relative!important;
 	top: -100px!important;
@@ -134,6 +180,13 @@ html {
 	position: relative!important;
 	top: -90px!important;
 	left: 165px!important;
+	width: max-content!important;
+	margin-bottom: -100px!important;
+}
+#tippy-playlist-search-offset {
+	position: relative!important;
+	top: -90px!important;
+	left: 0px!important;
 	width: max-content!important;
 	margin-bottom: -100px!important;
 }

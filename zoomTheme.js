@@ -196,6 +196,10 @@ html {
 	width: max-content!important;
 	margin-bottom: -90px!important;
 }
+.main-nowPlayingBar-extraControls>div>.tippy-box {
+	top: 150px!important;
+	left: 270px!important;
+}
 `
 
 var head = document.getElementsByTagName('head')[0];

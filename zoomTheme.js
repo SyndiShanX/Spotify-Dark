@@ -13,10 +13,19 @@
 		} else if (variant == 2) {
 			tippy.parentElement.id = ids;
 			setTimeout(function(){ fixTippyBoxes() }, 50);
+		} else if (variant == 3) {
+			tippy.id = ids;
+			setTimeout(function(){ fixTippyBoxes() }, 50);
 		}
 	}
 	
 	async function fixTippyBoxes() {
+		if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[0] != undefined) {
+			tippy = document.getElementsByClassName("main-contextMenu-tippyWrapper")[0].children['tippy-1']
+			if (/Listen from your speaker/ig.test(tippy.innerText)) {
+				setTippy(3, 'tippy-speaker')
+			}
+		}
 		tippy = document.getElementsByClassName("main-contextMenu-tippy")[0]
 		if (tippy != undefined) {
 			if (tippy.classList.length == 2) {
@@ -104,6 +113,9 @@ html {
 }
 .main-nowPlayingBar-container, #tippy-main, .main-navBar-mainNav .os-padding {
 	zoom: 117.5%!important;
+}
+#tippy-speaker {
+	top: 900px!important;
 }
 #tippy-spicetify {
 	position: relative!important;

@@ -19,13 +19,7 @@
 		}
 	}
 	
-	async function fixTippyBoxes() {
-		if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[0] != undefined) {
-			tippy = document.getElementsByClassName("main-contextMenu-tippyWrapper")[0].children['tippy-1']
-			if (/Listen from your speaker/ig.test(tippy.innerText)) {
-				setTippy(3, 'tippy-speaker')
-			}
-		}
+	function fixTippyBoxes() {
 		tippy = document.getElementsByClassName("main-contextMenu-tippy")[0]
 		if (tippy != undefined) {
 			if (tippy.classList.length == 2) {
@@ -49,7 +43,7 @@
 				} else if (/Library/ig.test(tippyText) || /Create/ig.test(tippyText) || /More options for /ig.test(tippyText) || /Switch to /ig.test(tippyText) || /Invite collaborators to /ig.test(tippyText) || /Duration/ig.test(tippyText)) {
 					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] > parseInt('800')) {
 						setTippy(1, 'tippy-song-info')
-					} else if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] == '437') {
+					} else if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] == '446') {
 						setTippy(1, 'tippy-playlist')
 					} else {
 						setTippy(1, 'tippy-sidebar')
@@ -98,7 +92,7 @@
 				}
 			}
 		} else {
-			setTimeout(function(){ fixTippyBoxes() }, 50);
+		setTimeout(function(){ fixTippyBoxes() }, 50);
 		}
 	}
 	
@@ -113,9 +107,6 @@ html {
 }
 .main-nowPlayingBar-container, #tippy-main, .main-navBar-mainNav .os-padding {
 	zoom: 117.5%!important;
-}
-#tippy-speaker {
-	top: 900px!important;
 }
 #tippy-spicetify {
 	position: relative!important;
@@ -184,7 +175,7 @@ html {
 }
 #tippy-playlist {
 	position: relative!important;
-	top: -90px!important;
+	top: -82px!important;
 	width: max-content!important;
 	margin-bottom: -90px!important;
 }

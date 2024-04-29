@@ -187,6 +187,7 @@
 }
 .main-nowPlayingBar-nowPlayingBar {
 	margin-top: 1.25%!important;
+	max-width: 99%!important;
 }
 .main-nowPlayingBar-nowPlayingBar .playback-bar .playback-progressbar {
 	min-width: 150%!important;

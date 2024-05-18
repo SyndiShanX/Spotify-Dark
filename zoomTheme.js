@@ -135,15 +135,17 @@
 				}
 			}
 		} else if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[0] != undefined) {
-			if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[1].children[1] != undefined) {
-				if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[1].children[1].children[0] != undefined) {
-					tippy = document.getElementsByClassName("main-contextMenu-tippyWrapper")[1].children[1].children[0]
+			if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[0].children[1] != undefined) {
+				if (document.getElementsByClassName("main-contextMenu-tippyWrapper")[0].children[1].children[0] != undefined) {
+					tippy = document.getElementsByClassName("main-contextMenu-tippyWrapper")[0].children[1].children[0]
 					tippyText = tippy.children[0].children[0].children[0].children[0].innerText
 					setTippy(3, 'tippy-speaker')
 				}
+			} else {
+				setTimeout(function(){ fixTippyBoxes() }, 50);
 			}
 		} else {
-		setTimeout(function(){ fixTippyBoxes() }, 50);
+			setTimeout(function(){ fixTippyBoxes() }, 50);
 		}
 	}
 	
@@ -180,7 +182,7 @@ html:not(:has(.BeautifulLyricsPage.Fullscreen)) {
 }
 #tippy-speaker {
 	position: relative!important;
-	top: 90px!important;
+	top: 140px!important;
 	left: 8px!important;
 	width: max-content!important;
 	margin-bottom: 0px!important;

@@ -199,10 +199,16 @@
 }
 .main-nowPlayingBar-nowPlayingBar .playback-bar .playback-progressbar {
 	min-width: 150%!important;
-}
-.main-nowPlayingBar-nowPlayingBar .playback-bar .playback-progressbar, .main-nowPlayingBar-nowPlayingBar .playback-bar__progress-time-elapsed, .main-nowPlayingBar-nowPlayingBar .main-playbackBarRemainingTime-container {
 	position: relative!important;
 	left: -32%!important;
+}
+.main-nowPlayingBar-nowPlayingBar .playback-bar__progress-time-elapsed, .IPbBrI6yF4zhaizFmrg6 {
+	position: relative!important;
+	left: -28%!important;
+}
+.main-nowPlayingBar-nowPlayingBar .main-playbackBarRemainingTime-container {
+	position: relative!important;
+	left: 16%!important
 }
 .main-nowPlayingBar-nowPlayingBar .control-button-heart {
 	position: relative!important;

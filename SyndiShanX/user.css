@@ -355,3 +355,18 @@
 	image-rendering: initial!important;
 	background-size: 64px 64px!important;
 }
+
+/* Move Home Button Next to Nav Buttons */
+.custom-navlinks-scrollable_container {
+	position: relative;
+	left: 55px;
+}
+.main-globalNav-searchContainer > button {
+	left: -500px;
+}
+.main-globalNav-historyButtonsContainer {
+	pointer-events: none;
+}
+.main-globalNav-historyButtonsContainer .main-globalNav-historyButtons, .main-globalNav-historyButtonsContainer .custom-navlinks-scrollable_container {
+	pointer-events: initial;
+}

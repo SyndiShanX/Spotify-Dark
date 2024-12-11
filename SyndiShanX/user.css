@@ -114,6 +114,10 @@
 	bottom: -54px;
 	right: -6px;
 }
+.link-subtle.main-topBar-topbarContentRight {
+	position: relative;
+	left: -10px;
+}
 
 /* Button Colors */
 .main-addButton-active, .control-button--active, .control-button-heart[aria-checked=true], .main-trackList-statusChangeUp, .MBzbwWcyfbqSftBtnn3g button>svg,

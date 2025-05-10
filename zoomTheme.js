@@ -29,9 +29,6 @@
 				/* Lyrics Now Playing Tippy */
 				} else if (/Lyrics /ig.test(tippy.innerText)) {
 					setTippy(3, 'tippy-now-playing-lyrics')
-				/* Sidebar 2 Classes Tippy */
-				} else if (tippy.parentElement.style.transform.split('translate3d(')[1].split(', ')[1].split('px')[1] > parseInt('-800')) {
-					setTippy(2, 'tippy-sidebar')
 				/* Spicetify Button Tippy */
 				} else {
 					setTippy(2, 'tippy-main tippy-spicetify')
@@ -40,7 +37,7 @@
 				tippyText = tippy.children[0].innerText
 				/* Page Navigation Buttons Tippy */
 				if (/Go back/ig.test(tippyText) || /Go forward/ig.test(tippyText)) {
-					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] != '42' && tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split(', ')[1].split('px')[1] < parseInt('-800')) {
+					if (tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] == '31' || tippy.parentElement.parentElement.style.transform.split('translate3d(')[1].split('px')[0] == '51') {
 						setTippy(2, 'tippy-main tippy-spicetify')
 					} else {
 						setTippy(1, 'tippy-sidebar')
@@ -165,10 +162,10 @@
 
 var zoomCss = `
 /* Zoom */
-html:not(:has(.BeautifulLyricsPage.Fullscreen)) {
+html:not(.BeautifulLyricsPage.Fullscreen) {
 	zoom: 85%!important;
 }
-.Root__top-container:not(:has(.BeautifulLyricsPage.Fullscreen)) {
+.Root__top-container:not(.BeautifulLyricsPage.Fullscreen) {
 	.main-nowPlayingBar-container, #tippy-main, .main-navBar-mainNav .os-padding {
 		zoom: 117.5%!important;
 	}
@@ -188,10 +185,10 @@ html:not(:has(.BeautifulLyricsPage.Fullscreen)) {
 	left: -85px!important;
 	width: max-content!important;
 }
-#tippy-speaker {
+#tippy-speaker, #nudgeBody {
 	position: relative!important;
-	top: 140px!important;
-	left: 8px!important;
+	top: 100px!important;
+	left: -58px!important;
 	width: max-content!important;
 }
 #tippy-tools {

@@ -20,21 +20,18 @@ A Github Dark Theme for Spotify
 
 ## Recommended Extensions/Snippets
 Extensions: 
-- [Playlist Intersection](https://github.com/huhridge/huh-spicetify-extensions#playlistintersection)
-- [Spotify Backup](https://github.com/Tetrax-10/Spicetify-Extensions#4-spotify-backup)
-- [Save Playlists](https://github.com/daksh2k/Spicetify-stuff/blob/master/EXTENSIONS.md#save-playlists)
-- [Play Next](https://github.com/daksh2k/Spicetify-stuff/blob/master/EXTENSIONS.md#play-next)
-- [Cache Cleaner](https://github.com/kyrie25/Spicetify-Cache-Cleaner#spicetify-cache-cleaner)
+- [Adblockify](https://github.com/rxri/spicetify-extensions/blob/main/adblock/README.md)
 - [Autoplay](https://github.com/Ruxery/spicetify-autoplay#autoplay)
-- [Seek on Scroll](https://github.com/SunsetTechuila/seekonscroll#seek-on-scroll)
-- [Vaultify](https://github.com/Delusoire/spicetify-extensions)
-- [Startup Page](https://github.com/Resxt/Spicetify-Extensions/tree/main/startup-page)
-- [Adblock](https://github.com/CharlieS1103/spicetify-extensions#adblock)
-- [Imaged Folders](https://github.com/SunsetTechuila/imaged-folders#imaged-folders)
-- [Find Duplicates](https://github.com/Konsl/spicetify-extensions#find-duplicates)
 - [Beautiful Lyrics](https://github.com/surfbryce/beautiful-lyrics#beautiful-lyrics)
+- [Cache Cleaner](https://github.com/kyrie25/Spicetify-Cache-Cleaner#spicetify-cache-cleaner)
+- [Play Next](https://github.com/daksh2k/Spicetify-stuff/blob/master/EXTENSIONS.md#play-next)
+- [Save Playlists](https://github.com/daksh2k/Spicetify-stuff/blob/master/EXTENSIONS.md#save-playlists)
+- [Smooth Scrolling](https://github.com/iHelops/smooth-scrolling)
+- [Spotify Backup](https://github.com/Tetrax-10/Spicetify-Extensions#4-spotify-backup)
+- [Startup Page](https://github.com/Resxt/Spicetify-Extensions/tree/main/startup-page)
 - [Volume Percentage](https://github.com/daksh2k/Spicetify-stuff/blob/master/EXTENSIONS.md#volume-percentage)
 
 Snippets:
 - Hide Lyrics Button
 - Pointers
+- Rounded Images

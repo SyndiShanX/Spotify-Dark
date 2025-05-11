@@ -12,6 +12,10 @@ A Github Dark Theme for Spotify
 - Copy SyndiShanX folder into your Spicetify Themes Folder (%appdata%\spicetify\Themes)
 - Apply the theme with: `spicetify config current_theme SyndiShanX`
 - The only Color Scheme Included is spotify-dark, apply it with: `spicetify config color_scheme spotify-dark`
+- Copy `zoomTheme.js` into your Spicetify Extensions Folder (%appdata%\spicetify\Extensions)
+
+#### Optional Rainbow Addon
+- Copy `rainbow.js` into your Spicetify Extensions Folder (%appdata%\spicetify\Extensions)
 
 ## Preview:
 

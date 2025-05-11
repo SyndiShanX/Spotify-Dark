@@ -1,18 +1,62 @@
-const root = document.querySelector(':root');
-const colors = [
-  '#ff0000', '#E81700', '#D12E00', '#B94600', '#A25D00', '#8B7400', '#748B00', '#5DA200', 
-  '#46B900', '#2ED100', '#17E800', '#00ff00', '#17FF00', '#2EFF00', '#46FF00', '#5DFF00', 
-  '#74FF00', '#8BFF00', '#A2FF00', '#B9FF00', '#D1FF00', '#E8FF00', '#ffff00', '#E8FF17', 
-  '#D1FF2E', '#B9FF46', '#A2FF5D', '#8BFF74', '#74FF8B', '#5DFFA2', '#46FFB9', '#2EFFD1', 
-  '#17FFE8', '#00ffff', '#17E8E8', '#2ED1D1', '#46B9B9', '#5DA2A2', '#748B8B', '#8B7474', 
-  '#A25D5D', '#B94646', '#D12E2E', '#E81717'
-];
+const root = document.querySelector(':root')
+
+const colorToHex = (color) => {
+  const hex = color.toString(16)
+  return hex.length == 1 ? "0" + hex : hex
+}
+
+const rgbToHex = (r, g, b) => {
+  return "#" + colorToHex(r) + colorToHex(g) + colorToHex(b)
+}
 
 (async function rainbow(interval = 100) {
-  while (true) {
-    for (const color of colors) {
-      root.style.setProperty('--spice-button-active', color);
-      await new Promise(resolve => setTimeout(resolve, interval));
-    }
-  }
-})();
+	x = 0
+	y = 0
+	r = 0
+	g = 0
+	b = 0
+	rainbow_color = [0, 0, 0]
+	
+	while(true) {
+		if (y >= 0 && y < 258) {
+			r = 255
+			g = 0
+			b = x
+		} else if (y >= 258 && y < 516) {
+			r = 255 - x
+			g = 0
+			b = 255
+		} else if (y >= 516 && y < 774) {
+			r = 0
+			g = x
+			b = 255
+		} else if (y >= 774 && y < 1032) {
+			r = 0
+			g = 255
+			b = 255 - x
+		} else if (y >= 1032 && y < 1290) {
+			r = x
+			g = 255
+			b = 0
+		} else if (y >= 1290 && y < 1545) {
+			r = 255
+			g = 255 - x
+			b = 0
+		}
+		
+		x += 3
+		if (x > 255) {
+			x = 0
+		}
+		
+		y += 3
+		if (y > 1545) {
+			y = 0
+		}
+		
+		rainbow_color = [r, g, b]
+		
+		root.style.setProperty('--spice-button-active', rgbToHex(rainbow_color[0], rainbow_color[1], rainbow_color[2]))
+		await new Promise(resolve => setTimeout(resolve, interval))
+	}
+})()

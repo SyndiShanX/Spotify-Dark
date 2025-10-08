@@ -101,9 +101,6 @@
 .x-settings-container {
 	max-width: 95%!important;
 }
-.main-contextMenu-menu .main-contextMenu-menuItem:nth-child(7) {
-	display: none;
-}
 .lyrics-lyrics-background, .marketplace-header {
 	background-color: transparent!important;
 }

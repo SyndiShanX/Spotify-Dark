@@ -6,9 +6,6 @@
 	"usercss": "SyndiShanX/user.css",
 	"schemes": "SyndiShanX/color.ini",
 	"authors": [
-		{ "name": "SyndiShanX", "url": "https://github.com/SyndiShanX" }
-	],
-	"include": [
-		"https://raw.githubusercontent.com/SyndiShanX/Spotify-Dark/main/zoomTheme.js"
+		{"name": "SyndiShanX", "url": "https://github.com/SyndiShanX"}
 	]
 }

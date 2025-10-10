@@ -24,7 +24,7 @@ html:not(.BeautifulLyricsPage.Fullscreen) {
 	width: 117.5cqw!important;
 	height: 117.5cqw!important;
 }
-div:has(>#context-menu>.main-contextMenu-tippy) {
+div:has(>#context-menu>.main-contextMenu-tippy), div:has(>.main-contextMenu-tippy) {
 	zoom: 117.5%!important;
 }
 

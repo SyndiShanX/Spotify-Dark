@@ -196,7 +196,7 @@
 
 /* Now Playing */
 .main-nowPlayingBar-container {
-	min-height: 15vh!important;
+	min-height: 11vh!important;
 }
 .main-nowPlayingBar-nowPlayingBar {
 	margin-top: 1.25%!important;
@@ -246,11 +246,16 @@
 
 /* Now Playing Cover Art */
 .main-nowPlayingWidget-coverArt .cover-art, .cover-art .shadow, .cover-art:not(.cover-art-auto-height) .cover-art-image {
-	width: 112px!important;
-	height: 112px!important;
+	width: 80px!important;
+	height: 80px!important;
 }
 .main-coverSlotCollapsed-container {
-	top: 7px;
+	top: -1vh;
+}
+
+/* Fullscreen Play Panel Fix */
+.PlayPanel {
+	top: -45vh;
 }
 
 /* ---------- CSS Snippets ---------- */

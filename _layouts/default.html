@@ -25,12 +25,18 @@
 			background-size: auto!important;
 			background-position: left top!important;
 		}
-		p, h1, h2, h3, h4, li {
+		p, h1, h2, h3, h4, h5, h6, .highlight, li {
 			color: #fff;
 		}
+		h6 {
+			transform: scale(1.5);
+		}
+		a:-webkit-any-link {
+			color: orange;
+		}
 		img {
-			width: 75%;
-			height: 75%;
+			width: 25%;
+			height: 25%;
 		}
 		::-webkit-scrollbar {
 			width: 15px;
@@ -42,9 +48,6 @@
 		::-webkit-scrollbar-thumb:vertical {
 			height: 30px;
 			background-color: #666;
-		}
-		a:-webkit-any-link {
-			color: #35AFEA;
 		}
 	</style>
 </head>

@@ -208,6 +208,15 @@
 	max-width: 99%!important;
 }
 
+/* Now Playing Cover Art */
+.main-nowPlayingWidget-coverArt .cover-art, .cover-art .shadow, .cover-art:not(.cover-art-auto-height) .cover-art-image {
+	width: 80px!important;
+	height: 80px!important;
+}
+.main-coverSlotCollapsed-container {
+	top: -1vh;
+}
+
 /* Progress Alignment Bar Fix */
 .playback-progressbar-container {
 	margin-left: 0px!important;
